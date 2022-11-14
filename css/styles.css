@@ -1,8 +1,6 @@
 h1{
     color:blueviolet;
-    position: relative;
-    right: 50%;
-    left: 50%;
+    text-align: center;
     }
 
 h2{
@@ -13,3 +11,17 @@ h3{
     color: red;
 }
 
+.colonnes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.colonnes img, .colonnes p{
+    width: 30%;
+
+}
+
+.colonnes p{
+    color: whitesmoke;
+}
